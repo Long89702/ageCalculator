@@ -13,14 +13,6 @@ const dd = today.getDate();
 const mm = today.getMonth() + 1;
 const yyyy = today.getFullYear();
 
-// console.log(typeof(Number.parseInt(day.value,10)))
-// console.log(Number.parseInt(day.value,10))
-// const calculateDd = () => {
-// if (dd<day.value){
-
-// }
-// }
-
 form.addEventListener("submit", (event) => {
   event.preventDefault();
 
